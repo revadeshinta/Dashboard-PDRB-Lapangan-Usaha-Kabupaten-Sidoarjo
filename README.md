@@ -40,8 +40,7 @@ Data bersumber dari **Badan Pusat Statistik (BPS) Kabupaten Sidoarjo** dan telah
 
 ---
 
-## 📂 Struktur Folder
-📁 dashboard-pdrb-sidoarjo/
+📁 Dashboard-PDRB-Lapangan-Usaha-Kabupaten-Sidoarjo/
 │
 ├── app.py
 ├── pdrb_data_long_format.csv
