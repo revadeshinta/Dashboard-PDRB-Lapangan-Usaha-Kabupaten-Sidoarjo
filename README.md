@@ -2,7 +2,7 @@
 
 Dashboard ini menampilkan perkembangan **Produk Domestik Regional Bruto (PDRB)** menurut **Lapangan Usaha** di Kabupaten Sidoarjo, dengan visualisasi interaktif berbasis **Streamlit**.
 
-Data bersumber dari **Badan Pusat Statistik (BPS) Kabupaten Sidoarjo** dan telah diolah untuk keperluan visualisasi dan analisis sederhana.
+Data bersumber dari **Badan Pusat Statistik (BPS) Kabupaten Sidoarjo** dan telah diolah untuk keperluan visualisasi dan analisis sederhana untuk menyelesaikan mini proyek magang dari kampus.
 
 ---
 
