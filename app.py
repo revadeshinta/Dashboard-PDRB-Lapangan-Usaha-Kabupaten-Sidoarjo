@@ -61,33 +61,33 @@ with st.sidebar.expander("ℹ️ Tentang Data"):
 
         **Penjelasan Metrik:**
         - **ADHB (Atas Dasar Harga Berlaku)**  
-          Mengukur nilai tambah barang/jasa menggunakan harga yang berlaku pada periode berjalan.  
-          → mencerminkan **nilai nominal** PDRB.
-        
-        - **ADHK (Atas Dasar Harga Konstan)**  
-          Mengukur nilai tambah barang/jasa menggunakan harga pada tahun dasar tertentu.  
-          → mencerminkan **pertumbuhan riil** tanpa pengaruh inflasi.
+          Menggunakan harga pada tahun berjalan → mencerminkan nilai nominal.
+          Terpengaruh oleh perubahan volume dan inflasi.
+
+        - **ADHK (Atas Dasar Harga Konstan 2010)**  
+          Menggunakan harga tetap pada tahun dasar (2010) → mencerminkan pertumbuhan riil.
+          Tidak terpengaruh inflasi. Tahun dasar dapat berubah (2010, 2015, dst).
 
         - **Y-on-Y (Year-on-Year)**  
-          Pertumbuhan dibanding **triwulan yang sama tahun sebelumnya**  
-          → contoh: Q2 2025 vs Q2 2024
+          Pertumbuhan dibanding triwulan sama pada tahun sebelumnya.
 
         - **Q-to-Q (Quarter-to-Quarter)**  
-          Pertumbuhan dibanding **triwulan sebelumnya dalam tahun yang sama**  
-          → contoh: Q2 2025 vs Q1 2025
+          Pertumbuhan dibanding triwulan sebelumnya (tahun berjalan).
 
         - **C-to-C (Cumulative-to-Cumulative)**  
-          Perubahan kumulatif **tahun berjalan dibanding kumulatif periode sama tahun sebelumnya**  
-          → contoh: Jan–Jun 2025 vs Jan–Jun 2024
+          Pertumbuhan kumulatif dibanding periode sama tahun sebelumnya.
 
-        **Catatan satuan:**
-        - ADHB & ADHK: Rupiah (Miliar/Triliun sesuai data asli)
+        **Catatan Penting:**
+        - ADHK **harus** mencantumkan tahun dasar (contoh: 2010)  
+          karena menghitung harga tetap dengan menghilangkan inflasi.
+        - ADHB **tidak perlu** tahun dasar karena menggunakan harga berjalan.
+
+        **Satuan:**
+        - ADHB & ADHK: Rupiah (Miliar/Triliun)
         - YoY, Q-to-Q, C-to-C: Persentase (%)
-
-        **Disclaimer**:  
-        Visualisasi ini merupakan hasil olahan dari data yang diinput, bukan publikasi resmi BPS.
         """
     )
+
 
 # =========================
 # FILTER DATA
@@ -239,6 +239,7 @@ with st.expander("📊 Lihat Tabel Data Detail"):
 st.caption(
     "Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana untuk menjadi mini proyek magang."
 )
+
 
 
 
