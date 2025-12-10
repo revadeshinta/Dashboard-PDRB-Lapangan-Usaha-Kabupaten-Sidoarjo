@@ -57,9 +57,7 @@ Kemudian jalankan perintah berikut:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
----
-
+```
 Aplikasi akan berjalan di:
 👉 http://localhost:8501/
 
