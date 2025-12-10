@@ -31,7 +31,7 @@ st.markdown("""
 <div style='text-align: center; font-size: 14px; margin-bottom: 20px;'>
 Dashboard ini menampilkan perkembangan Produk Domestik Regional Bruto (PDRB) menurut lapangan usaha
 Kabupaten Sidoarjo. Data bersumber dari Badan Pusat Statistik (BPS) Kabupaten Sidoarjo dan telah diolah
-untuk keperluan visualisasi dan analisis sederhana untuk mini proyek magang.
+untuk keperluan visualisasi dan analisis sederhana.
 </div>
 """, unsafe_allow_html=True)
 
@@ -239,4 +239,5 @@ with st.expander("📊 Lihat Tabel Data Detail"):
 st.caption(
     "Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana untuk menjadi mini proyek magang di BPS Kabupaten Sidoarjo."
 )
+
 
