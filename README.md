@@ -1,4 +1,4 @@
-# 📊 Dashboard PDRB Menurut Lapangan Usaha – Kabupaten Sidoarjo
+# 📊 Dashboard PDRB Menurut Lapangan Usaha Kabupaten Sidoarjo
 
 Dashboard ini menampilkan perkembangan **Produk Domestik Regional Bruto (PDRB)** menurut **Lapangan Usaha** di Kabupaten Sidoarjo, dengan visualisasi interaktif berbasis **Streamlit**.
 
@@ -40,11 +40,14 @@ Data bersumber dari **Badan Pusat Statistik (BPS) Kabupaten Sidoarjo** dan telah
 
 ---
 
-📁 Dashboard-PDRB-Lapangan-Usaha-Kabupaten-Sidoarjo/
-│
+## 📁 Struktur Folder
+
+```text
+Dashboard-PDRB-Lapangan-Usaha-Kabupaten-Sidoarjo/
 ├── app.py
 ├── pdrb_data_long_format.csv
 └── requirements.txt
+```
 
 ---
 
