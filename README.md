@@ -50,6 +50,11 @@ Dashboard-PDRB-Lapangan-Usaha-Kabupaten-Sidoarjo/
 ```
 
 ---
+## 🌐 Live App
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-online-brightgreen?logo=streamlit)](https://dashboard-pdrb-lapangan-usaha-kabupaten-sidoarjo-hq2jbrgbmq8r6.streamlit.app/)
+
+---
 
 ## ▶️ Cara Menjalankan Secara Lokal
 
