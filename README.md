@@ -47,6 +47,8 @@ Data bersumber dari **Badan Pusat Statistik (BPS) Kabupaten Sidoarjo** dan telah
 ├── pdrb_data_long_format.csv
 └── requirements.txt
 
+---
+
 ## ▶️ Cara Menjalankan Secara Lokal
 
 Pastikan sudah menginstall Python 3.8+  
@@ -55,6 +57,8 @@ Kemudian jalankan perintah berikut:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+---
 
 Aplikasi akan berjalan di:
 👉 http://localhost:8501/
