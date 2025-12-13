@@ -10,7 +10,7 @@ Data bersumber dari **Badan Pusat Statistik (BPS) Kabupaten Sidoarjo** dan telah
 
 - Filter interaktif:
   - Pilih metrik: **ADHB**, **ADHK**, **YoY**, **Q-to-Q**, **C-to-C**
-  - Pilih sektor lapangan usaha: Primer, Sekunder, Tersier, dll.
+  - Pilih sektor lapangan usaha: Primer, Sekunder, Tersier.
 - Visualisasi tren per periode (Tahun & Triwulan)
 - Ringkasan nilai terbaru (cards metrics)
 - Narasi analisis **dinamis** berdasarkan filter yang dipilih
@@ -48,6 +48,12 @@ Dashboard-PDRB-Lapangan-Usaha-Kabupaten-Sidoarjo/
 ├── pdrb_data_long_format.csv
 └── requirements.txt
 ```
+
+---
+
+## Catatan
+Data PDRB tahun 2025 yang digunakan dalam dashboard ini merupakan data sementara hingga Triwulan III (TW III), karena data tahunan penuh belum tersedia pada saat pengolahan data dilakukan.
+
 
 ---
 ## 🌐 Live App
