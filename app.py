@@ -209,7 +209,9 @@ Dibandingkan dengan periode sebelumnya (**{prev_label}**):
 - Sektor dengan **kenaikan tertinggi**: **{max_up_sector}** (perubahan **{max_up_val:+.2f}**)
 - Sektor dengan **penurunan terdalam**: **{max_down_sector}** (perubahan **{max_down_val:+.2f}**)
 
-Note: Narasi ini otomatis menyesuaikan setiap kali  metrik atau pilihan sektor di sidebar diubah.
+Note: 
+- Narasi ini otomatis menyesuaikan setiap kali  metrik atau pilihan sektor di sidebar diubah.
+- Data PDRB tahun 2025 yang digunakan dalam dashboard ini merupakan data sementara hingga Triwulan III (TW III), karena data tahunan penuh belum tersedia pada saat pengolahan data dilakukan.
 """
             st.markdown(penjelasan)
         else:
@@ -239,3 +241,4 @@ with st.expander("📊 Lihat Tabel Data Detail"):
 st.caption(
     "Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana untuk menjadi mini proyek magang.""Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana, mahasiswa S-1 Sains Data Universitas Negeri Surabaya, untuk menjadi mini proyek magang."
 )
+
