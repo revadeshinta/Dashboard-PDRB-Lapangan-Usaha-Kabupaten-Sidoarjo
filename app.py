@@ -200,27 +200,27 @@ if not filtered.empty:
             penjelasan = f"""
 **Penjelasan**
 
-Pada grafik di atas ditampilkan tren **{pilih_metrik}** PDRB menurut lapangan usaha
-untuk sektor **{sektor_dipilih}** di Kabupaten Sidoarjo.
+Grafik di atas menampilkan tren laju pertumbuhan **{pilih_metrik}** Produk Domestik Regional Bruto (PDRB)
+menurut lapangan usaha di Kabupaten Sidoarjo untuk sektor **{sektor_dipilih}**.
 
-Pada periode **{last_label}**, rata-rata nilai **{pilih_metrik}** tercatat sekitar **{avg_latest:.2f}**.
-Dibandingkan dengan periode sebelumnya (**{prev_label}**):
+Pada periode **{last_label}**, rata-rata nilai laju pertumbuhan **{pilih_metrik}** tercatat sebesar
+**{avg_latest:.2f}**. Jika dibandingkan dengan periode sebelumnya (**{prev_label}**), diperoleh hasil sebagai berikut:
 
-- Sektor dengan **kenaikan tertinggi**: **{max_up_sector}** (perubahan **{max_up_val:+.2f}**)
-- Sektor dengan **penurunan terdalam**: **{max_down_sector}** (perubahan **{max_down_val:+.2f}**)
+- Sektor dengan **kenaikan tertinggi**: **{max_up_sector}** (perubahan sebesar **{max_up_val:+.2f}**)
+- Sektor dengan **penurunan terdalam**: **{max_down_sector}** (perubahan sebesar **{max_down_val:+.2f}**)
 
-Note: 
-- Narasi ini otomatis menyesuaikan setiap kali  metrik atau pilihan sektor di sidebar diubah.
-- Data laju pertumbuhan PDRB tahun 2025 yang digunakan dalam dashboard ini merupakan data sementara hingga Triwulan III (TW III), karena data tahunan penuh belum tersedia pada saat pengolahan data dilakukan.
+**Catatan:**
+- Narasi ini dihasilkan secara otomatis dan akan menyesuaikan setiap kali metrik atau pilihan sektor pada sidebar diubah.
+- Data laju pertumbuhan PDRB tahun 2025 yang ditampilkan dalam dashboard ini bersifat sementara hingga Triwulan III (TW III), karena data tahunan penuh belum tersedia pada saat proses pengolahan data dilakukan.
 """
             st.markdown(penjelasan)
         else:
             st.markdown(
-                f"**Narasi singkat:** Grafik menunjukkan perkembangan **{pilih_metrik}** pada periode **{last_label}**, namun tidak tersedia pembanding langsung dengan periode sebelumnya untuk sektor yang dipilih."
+                f"**Narasi singkat:** Grafik menunjukkan laju pertumbuhan **{pilih_metrik}** pada periode **{last_label}**, namun tidak tersedia pembanding langsung dengan periode sebelumnya untuk sektor yang dipilih."
             )
     else:
         st.markdown(
-            f"**Narasi singkat:** Grafik menampilkan tren **{pilih_metrik}** untuk sektor terpilih, tetapi jumlah periode masih terbatas sehingga analisis perubahan antar waktu belum optimal."
+            f"**Narasi singkat:** Grafik menampilkan laju pertumbuhan tren **{pilih_metrik}** untuk sektor terpilih, tetapi jumlah periode masih terbatas sehingga analisis perubahan antar waktu belum optimal."
         )
 
 else:
@@ -241,5 +241,6 @@ with st.expander("📊 Lihat Tabel Data Detail"):
 st.caption(
     "Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana untuk menjadi mini proyek magang.""Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana, mahasiswa S-1 Sains Data Universitas Negeri Surabaya, untuk menjadi mini proyek magang."
 )
+
 
 
