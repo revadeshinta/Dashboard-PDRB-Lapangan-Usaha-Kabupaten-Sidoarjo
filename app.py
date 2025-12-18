@@ -239,7 +239,9 @@ with st.expander("📊 Lihat Tabel Data Detail"):
 # FOOTER
 # =========================
 st.caption(
-    "Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana untuk menjadi mini proyek magang.""Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana, mahasiswa S-1 Sains Data Universitas Negeri Surabaya, untuk menjadi mini proyek magang."
+    "Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. "
+    "Data diolah oleh Reva Deshinta Isyana, mahasiswa S-1 Sains Data "
+    "Universitas Negeri Surabaya, sebagai mini proyek magang."
 )
 
 
