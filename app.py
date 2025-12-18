@@ -20,7 +20,7 @@ df = load_data()
 # HEADER + KETERANGAN
 # =========================
 st.markdown("""
-<h2 style='text-align: center; color:#0E4D92;'>📊 Dashboard PDRB Menurut Lapangan Usaha</h2>
+<h2 style='text-align: center; color:#0E4D92;'>📊 Dashboard Laju Pertumbuhan PDRB Menurut Lapangan Usaha</h2>
 <p style='text-align: center;'>
 Kabupaten Sidoarjo • ADHB | ADHK | YoY | Q-to-Q | C-to-C
 </p>
@@ -29,7 +29,7 @@ Kabupaten Sidoarjo • ADHB | ADHK | YoY | Q-to-Q | C-to-C
 # Keterangan singkat di bawah judul
 st.markdown("""
 <div style='text-align: center; font-size: 14px; margin-bottom: 20px;'>
-Dashboard ini menampilkan perkembangan Produk Domestik Regional Bruto (PDRB) menurut lapangan usaha
+Dashboard ini menampilkan laju pertumbuhan Produk Domestik Regional Bruto (PDRB) menurut lapangan usaha
 Kabupaten Sidoarjo. Data bersumber dari Badan Pusat Statistik (BPS) Kabupaten Sidoarjo dan telah diolah
 untuk keperluan visualisasi dan analisis sederhana.
 </div>
@@ -211,7 +211,7 @@ Dibandingkan dengan periode sebelumnya (**{prev_label}**):
 
 Note: 
 - Narasi ini otomatis menyesuaikan setiap kali  metrik atau pilihan sektor di sidebar diubah.
-- Data PDRB tahun 2025 yang digunakan dalam dashboard ini merupakan data sementara hingga Triwulan III (TW III), karena data tahunan penuh belum tersedia pada saat pengolahan data dilakukan.
+- Data laju pertumbuhan PDRB tahun 2025 yang digunakan dalam dashboard ini merupakan data sementara hingga Triwulan III (TW III), karena data tahunan penuh belum tersedia pada saat pengolahan data dilakukan.
 """
             st.markdown(penjelasan)
         else:
@@ -241,4 +241,5 @@ with st.expander("📊 Lihat Tabel Data Detail"):
 st.caption(
     "Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana untuk menjadi mini proyek magang.""Sumber: Badan Pusat Statistik (BPS) Kabupaten Sidoarjo. Data diolah oleh Reva Deshinta Isyana, mahasiswa S-1 Sains Data Universitas Negeri Surabaya, untuk menjadi mini proyek magang."
 )
+
 
